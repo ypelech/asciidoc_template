@@ -1,0 +1,17 @@
+:toc: left
+:toclevels: 4
+:sectnumlevels: 5
+:icons: font
+:iconfont-remote!:
+:webfonts!:
+:source-highlighter: highlightjs
+:docinfo: shared
+:docinfodir: {rootdir}/docinfo
+:iconfont-name: {rootdir}/fonts/fa-regular-400.ttf
+:highlightjsdir: {rootdir}/highlight
+:pdf-themesdir: {rootdir}/pdf-themes
+:pdf-theme: my-theme
+:custom-ALL: 1
+:kroki-fetch-diagram:
+:imagesdir: media
+:copyright: Proprietary of YP systems

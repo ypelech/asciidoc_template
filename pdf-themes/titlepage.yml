@@ -1,0 +1,42 @@
+# Layout always needs to go on the bottom
+title_page:
+  content:
+    logo:
+      image: image:/some/image.png[pdfwidth=15%]
+      align: left
+      top: 5%
+      left: 5%
+    title:
+      content: {title}
+      font_size: 36
+    product_name:
+      content: {product_name}
+      font_size: 24
+    product_version:
+      content: {product_version}
+      font_size: 24
+    authors:
+      content: {authors}
+      font_size: $brand_font_size
+    revision:
+      content: {product_number} {build_number} {build_date}
+      font_size: $brand_font_size
+    #render image on top of background color, specify X/Y pixel offset for display
+    decoration_image:
+      image: image:/path/to/image.(png|svg|jpg)[pdfwidth=X]
+      align: right
+      top: 30%
+      left: 60%
+  layout:
+    $background_color
+    #$background_image
+    $logo
+    $decoration_image
+    #$title:$subtitle
+    $title
+    $subtitle
+    $product_name
+    $horizontal_rule
+    $product_version
+    $authors
+    $revision

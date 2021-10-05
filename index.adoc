@@ -1,0 +1,26 @@
+:rootdir: .
+include::{rootdir}/attrs.adoci[]
+
+= Title
+:author: Yossi Pelech <yp@gmail.com>
+:revdate: {docdate}
+:revnumber: V0.1
+:revremark: Draft
+
+toc::[]
+
+== Purpose
+
+== References
+
+.plantuml embedded
+[plantuml,target="image-gen/pl",format="png",align="center"]
+....
+@startuml
+
+blk1->blk2 
+
+@enduml
+....
+
+ 
