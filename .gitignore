@@ -1,0 +1,8 @@
+*.pdf
+*.zip
+*.html
+*.tmp
+*.swp
+*~
+images-gen/
+
