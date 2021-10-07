@@ -1,0 +1,68 @@
+:rootdir: .
+include::{rootdir}/attrs.adoci[]
+
+= Instructions for asciidoc installation
+:author: Yossi Pelech 
+:revdate: {docdate}
+:revnumber: V0.1
+:revremark: Draft
+
+== General
+
+There are few asciidoctor installation possible.
+
+I've used the asciidoctor java version.
+
+== Installation process 
+
+This is done in Linux ubuntu
+
+=== install Java:
+
+----
+
+sudo apt install default-jdk
+
+----
+
+=== download asciidoctorj distribution
+
+https://docs.asciidoctor.org/asciidoctorj/latest/distribution/
+
+=== Unzip
+
+Unzip to /usr/bin directory
+
+----
+
+sudo unzip asciidoctorj-2.5.1-bin.zip -d /usr/bin
+
+----
+
+=== Set environment varaible
+
+==== permanent
+
+----
+
+sudo nano /etc/environment
+
+----
+
+add the following:
+
+----
+
+ASCIIDOCTORJ_HOME="/usr/bin/sciidoctorj-2.5.1"
+
+----
+
+==== command shell
+
+----
+
+ASCIIDOCTORJ_HOME="/usr/bin/sciidoctorj-2.5.1"
+
+export ASCIIDOCTORJ_HOME
+
+----
